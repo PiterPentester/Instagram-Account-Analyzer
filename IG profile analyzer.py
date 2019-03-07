@@ -149,7 +149,6 @@ class IgAccountAnalyzer:
 
 
 def main(argv):
-    accountNames=""
     print("Input Instagram account name:")
     analyzer = IgAccountAnalyzer(input())
     analyzer.get_data()
